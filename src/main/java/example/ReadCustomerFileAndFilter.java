@@ -26,8 +26,6 @@ public class ReadCustomerFileAndFilter {
                     finalList.add(li);
                 }
             }
-          //  for (List<String> eachLine : finalList) {
-               // String commaSeparated = String.join(",", eachLine);
                 File f = new File("src/test/Files/latest-customers -filtered.txt");
                 try {
                     BufferedWriter bw = new BufferedWriter(new FileWriter(f));
